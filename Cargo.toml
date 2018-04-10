@@ -1,0 +1,14 @@
+[package]
+name = "xenon"
+version = "0.0.1"
+authors = ["yakirChen <iamyakirchen@outlook.com>"]
+description = "Xenon"
+homepage = "https://www.github.com/yakirChen/xenon"
+repository = "https://www.github.com/yakirChen/xenon.git"
+readme = "README.md"
+# keywords = [""]
+# categories = [""]
+license = "GPL-3"
+
+[dependencies]
+rand = "0.4.2"

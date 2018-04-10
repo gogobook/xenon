@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [[ -e ${RUST_HOME}/bin/cargo && -x ${RUST_HOME}/bin/cargo ]]; then
+    echo "Formatting Code .."
+    cargo run
+fi
+
+# MarkdownTOC template
+# <!-- MarkdownTOC autolink="true" autoanchor="false" markdown_preview="" uri_encoding="false" bullets="-,+,*" remove_image="false" -->
+# <!-- /MarkdownTOC -->

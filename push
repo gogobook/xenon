@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [[ -e ${RUST_HOME}/bin/rustfmt && -x ${RUST_HOME}/bin/rustfmt ]]; then
+    echo "Formatting Code .."
+    rustfmt src/*
+fi
+
+git checkout --orphan yakir
+git add -A
+git commit -am ":cactus: :cactus: :cactus:"
+git branch -D master
+git branch -m master
+git push -f origin master

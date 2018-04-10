@@ -1,0 +1,89 @@
+### Global
+*~
+.DS_Store
+tmp*
+
+### build \ make
+build/
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.smod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+target/
+logs/*
+
+### CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-debug/
+
+### JVM
+hs_err_pid*
+
+### IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+### Netbeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*~.nib
+
+### STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### Xcode
+*.xcodeproj
+
+### Eclipse
+.project/
+.settings/
+.metadata/
+tmp/
+*.tmp
+*.bak
+*.swp
+.loadpath
+.recommenders
+
+### Gradle
+.gradle/
+
+### Hexo
+Thumbs.db
+db.json
+*.log
+#node_modules/
+public/
+.deploy*/
+
+### Rust
+**/*.rs.bk
+Cargo.lock
